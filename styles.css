@@ -1,0 +1,49 @@
+body {
+  font-family: Helvetica;
+}
+
+header {
+  background-image: url(./Images/proxy-image.jfif);
+}
+
+h1 {
+  font-size: 65px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+table {
+  border: 3px solid RoyalBlue;
+  width: 650px;
+  margin: 0 auto;
+}
+
+thead {
+  background-color: dodgerblue;
+}
+
+th {
+  display: table-cell;
+  vertical-align: inherit;
+  font-weight: bold;
+  text-align: -internal-center;
+  color: white;
+}
+
+td {
+  border-top: 1px solid RoyalBlue;
+}
+
+.code {
+  font-family: monospace;
+  background-color: ivory;
+}
+
+p {
+  text-align: center;
+}

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My HTML Cheat Sheet</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>HTML Basic Elements Cheet Sheet</h1>
+    </header>
+    <main>
+      <section>
+        <article>
+          <h2 class="intro-title">What are Elements?</h2>
+          <p class="introduction">
+            An <strong>element</strong> is a part of a webpage. An element may
+            contain a data item or a chunk of text or an image, or perhaps
+            nothing. A typical element includes an opening tag with some
+            attributes, enclosed text content, and a closing tag.
+          </p>
+          <p>
+            The content of an HTML element is the information between the
+            opening and closing tags of an element.
+          </p>
+        </article>
+        <article>
+          <h2>Document Structure</h2>
+          <p>
+            HTML is organized into a family tree structure. HTML elements can
+            have parents, grandparents, siblings, children, grandchildren, etc.
+          </p>
+          <table>
+            <thead>
+              <tr>
+                <th>Opening tag</th>
+                <th>Closing tag</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><span class="code">&lt;html&gt;</span></td>
+                <td><span class="code">&lt;/html&gt;</span></td>
+                <td>
+                  The root element of an HTML document; all other elements are
+                  contained in this..
+                </td>
+              </tr>
+              <tr>
+                <td><span class="code">&lt;head&gt;</span></td>
+                <td><span class="code">&lt;/head&gt;</span></td>
+                <td>
+                  Container for processing information and metadata for an HTML
+                  document.
+                </td>
+              </tr>
+              <tr>
+                <td><span class="code">&lt;title&gt;</span></td>
+                <td><span class="code">&lt;/title&gt;</span></td>
+                <td>
+                  Defines the title of an HTML document. It is displayed in the
+                  browser’s title bar or tab.
+                </td>
+              </tr>
+              <tr>
+                <td><span class="code">&lt;body&gt;</span></td>
+                <td><span class="code">&lt;/body&gt;</span></td>
+                <td>
+                  Container for the displayable content of an HTML document.
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </article>
+        <article>
+          <h2>Section Heading</h2>
+          <p>
+            The <span class="code">&lt;h1&gt;</span> to
+            <span class="code"> &lt;h6&gt;</span> HTML elements represent six
+            levels of section headings. <span class="code">&lt;h1&gt;</span> is
+            the highest section level and
+            <span class="code">&lt;h6&gt;</span> is the lowest.
+          </p>
+          <table>
+            <thead>
+              <tr>
+                <th>Opening tag</th>
+                <th>Closing tag</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><span class="code">&lt;h1&gt;</span></td>
+                <td><span class="code">&lt;/h1&gt;</span></td>
+                <td>Highest-level heading</td>
+              </tr>
+              <tr>
+                <td><span class="code">&lt;h2&gt;</span></td>
+                <td><span class="code">&lt;/h2&gt;</span></td>
+                <td>Next level down to &lt;h1&gt; (sub-section)</td>
+              </tr>
+              <tr>
+                <td><span class="code">&lt;h3&gt;</span></td>
+                <td><span class="code">&lt;/h3&gt;</span></td>
+                <td>Next level down to &lt;h2&gt; (sub-sub-section)</td>
+              </tr>
+              <tr>
+                <td><span class="code">&lt;h4&gt;</span></td>
+                <td><span class="code">&lt;/h4&gt;</span></td>
+                <td>Next level down...</td>
+              </tr>
+              <tr>
+                <td><span class="code">&lt;h5&gt;</span></td>
+                <td><span class="code">&lt;/h5&gt;</span></td>
+                <td>Next level down...</td>
+              </tr>
+              <tr>
+                <td><span class="code">&lt;h6&gt;</span></td>
+                <td><span class="code">&lt;/h6&gt;</span></td>
+                <td>Lowest-level heading</td>
+              </tr>
+            </tbody>
+          </table>
+        </article>
+        <article>
+          <h2>Basic Text and Lists</h2>
+          <p>Very common elements found in almost every HTML document.</p>
+          <table>
+            <thead>
+              <tr>
+                <th>Opening tag</th>
+                <th>Closing tag</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><span class="code">&lt;p&gt;</span></td>
+                <td><span class="code">&lt;/p&gt;</span></td>
+                <td>
+                  Creates a paragraph, which contains and displays a block of
+                  text.
+                </td>
+              </tr>
+              <tr>
+                <td><span class="code">&lt;ol&gt;</span></td>
+                <td><span class="code">&lt;/ol&gt;</span></td>
+                <td>An ordered (enumerated) list.</td>
+              </tr>
+              <tr>
+                <td><span class="code">&lt;ul&gt;</span></td>
+                <td><span class="code">&lt;/ul&gt;</span></td>
+                <td>An unordered (bulleted) list.</td>
+              </tr>
+              <tr>
+                <td><span class="code">&lt;li&gt;</span></td>
+                <td><span class="code">&lt;/li&gt;</span></td>
+                <td>A list item in ordered (ol) or unordered (ul) lists.</td>
+              </tr>
+            </tbody>
+          </table>
+        </article>
+        <article>
+          <h2>Other Common Elements</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Opening tag</th>
+                <th>Closing tag</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><span class="code">&lt;a&gt;</span></td>
+                <td><span class="code">&lt;/a&gt;</span></td>
+                <td>
+                  Anchor: is used to create hyperlinks in an HTML document.
+                </td>
+              </tr>
+              <tr>
+                <td><span class="code">&lt;span&gt;</span></td>
+                <td><span class="code">&lt;/span&gt;</span></td>
+                <td>
+                  Generic inline container to separate pieces of text from a
+                  larger body of text (mainly for styling purposes).
+                </td>
+              </tr>
+              <tr>
+                <td><span class="code">&lt;img&gt;</span></td>
+                <td>Self closing</td>
+                <td>It embeds images in documents.</td>
+              </tr>
+              <tr>
+                <td><span class="code">&lt;br&gt;</span></td>
+                <td>Self closing</td>
+                <td>
+                  It creates a line break in text and is especially useful where
+                  a division of text is required.
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
